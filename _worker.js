@@ -1,11 +1,7 @@
 let mytoken= ['tkone'];
-
-// 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	 'cf.090227.xyz#优选',
 ];
-
-// 设置优选地址api接口
 let addressesapi = [
 'https://cn.xxxxxxxx.tk',
 'https://ct.xxxxxxxx.tk',
@@ -17,7 +13,6 @@ let addressesapi = [
 'https://ctv6.xxxxxxxx.tk'
 ];
 
-// 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
 'bestcf.onecf.eu.org#优选-01',
 'bestproxy.onecf.eu.org#优选-02',
@@ -72,7 +67,6 @@ let addressesnotls = [
 'fbi.gov'
 ];
 
-// 设置优选noTLS地址api接口
 let addressesnotlsapi = [
 'https://ipdb.api.030101.xyz/?type=bestcf&country=true',
 'https://ipdb.api.030101.xyz/?type=bestproxy&country=true',
